@@ -810,7 +810,7 @@ section,
   justify-content: center;
 }
 
-.hero img {
+.hero > img {
   position: absolute;
   inset: 0;
   display: block;

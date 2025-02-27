@@ -1,7 +1,7 @@
 @props([
     'url',
     'logoName',
-    'siteName' => 'PortFolio'
+    'siteName'
     ])
 
 <a href="{{ $url }}" {{ $attributes }}>

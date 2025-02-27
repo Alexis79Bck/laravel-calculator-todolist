@@ -26,22 +26,27 @@ return [
       [
         'type' => 'item',
         'link' => '#about-me',
-        'name' => 'About',
+        'name' => 'Sobre Mí',
       ],
       [
         'type' => 'dropdown',
         'link' => '#',
-        'name' => 'Projects',
+        'name' => 'Proyectos',
         'children' => [
           [
             'type' => 'item',
             'link' => '#react',
-            'name' => 'React Projects',
+            'name' => 'React/Next.Js',
           ],
           [
             'type' => 'item',
             'link' => '#vue',
-            'name' => 'Vue Project',
+            'name' => 'Vue/Nuxt.js',
+          ],
+          [
+            'type' => 'item',
+            'link' => '#livewire',
+            'name' => 'Livewire/Volt',
           ]
         ],
       ],
@@ -53,7 +58,7 @@ return [
       [
         'type' => 'item',
         'link' => '#contact-me',
-        'name' => 'Contact',
+        'name' => 'Contáctame',
       ]
     ]
 ];

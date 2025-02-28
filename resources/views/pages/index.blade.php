@@ -14,17 +14,17 @@
 
 @section("content-body")
     <x-templates.gp.sections.hero img="hero4-bg.jpg" >
-      <div class="row justify-content-center text-center" >
+      <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
         <div class="col-xl-6 col-lg-8">
           <img src="{{ asset('vendor/GP_Template/assets/img/Alexis-Mata-Logo-1.png') }}" alt="" srcset="">
         </div>
       </div>
-      <div class="row gy-4 mt-5 justify-content-center" >
-        <x-templates.gp.partials.icon-box icon="bi bi-file-code" text="Excelencia en Código" />
-        <x-templates.gp.partials.icon-box icon="bi bi-cpu" text="Hardware Optimizado" />
-        <x-templates.gp.partials.icon-box icon="bi bi-headset" text="Excelente Atención" />
-        <x-templates.gp.partials.icon-box icon="bi bi-window-sidebar" text="Soluciones Personalizadas" />
-        <x-templates.gp.partials.icon-box icon="bi bi-people-fill" text="Testimonio de Clientes" />
+      <div class="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
+        <x-templates.gp.partials.icon-box icon="bi bi-file-code" text="Excelencia en Código" aosType="fade-up" aosDelay="500"/>
+        <x-templates.gp.partials.icon-box icon="bi bi-cpu" text="Hardware Optimizado" aosType="fade-in" aosDelay="750"/>
+        <x-templates.gp.partials.icon-box icon="bi bi-headset" text="Excelente Atención" aosType="flip-right" aosDelay="1000"/>
+        <x-templates.gp.partials.icon-box icon="bi bi-window-sidebar" text="Soluciones Personalizadas" aosType="zoom-in-up" aosDelay="1250"/>
+        <x-templates.gp.partials.icon-box icon="bi bi-people-fill" text="Testimonio de Clientes" aosType="fade-down" aosDelay="1500"/>
       </div>
     </x-templates.gp.sections.hero>
 
@@ -61,6 +61,11 @@
 
     </x-templates.gp.sections.about>
 
+    <x-templates.gp.sections.stack-tech />
+      
+    
+    <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 @endsection
 
 @push("scriptsJS")
